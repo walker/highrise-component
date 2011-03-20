@@ -1,6 +1,6 @@
 <?php
 
-vendor('phpHighrise');
+App::import('Vendor', 'phpHighrise');
 
 class HighriseComponent extends Object {
 	var $http;
