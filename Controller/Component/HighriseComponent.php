@@ -1,7 +1,7 @@
 <?php
 
 App::import('Vendor', 'phpHighrise');
-
+App::uses('Component', 'Controller');
 class HighriseComponent extends Object {
 	var $http;
 	
